@@ -32,3 +32,46 @@ form{
     max-height: 42px;
     max-width: 61px;
 }
+
+#main-box {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+main{
+    margin-left: 2%;
+}
+
+aside form{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    align-items: stretch;
+
+}
+
+
+aside {
+    background-color: black;
+}
+
+.sort-input{
+
+    width: 90%;
+}
+
+select{
+    width: 100%;
+}
+
+.sort-opn{
+    background-color:aqua;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sort-opn ul {
+    padding-left: 5%;
+}
