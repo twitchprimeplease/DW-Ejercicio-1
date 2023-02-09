@@ -93,15 +93,50 @@ select{
     display: flex;
     flex-wrap: nowrap;
     margin: 15px;
-    
+    height: 90px;
+    justify-content: space-between;
 }
 #main-title h2{
     font-weight: normal;
     font-family: Verdana;
 }
 
-#main-title u{
-    font-weight: normal;
+#main-title ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+    align-items: end;
+}
+
+#main-title li{
+    margin-left: 5px;
+}
+
+a{
     font-family: Verdana;
 }
 
+#page-nav{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    row-gap: 3px;
+    justify-content: center;
+
+}
+
+#page-nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+    margin-left: -20px;
+}
+
+#page-nav h4{
+    margin-right: 0px;
+    font-weight: normal;
+}
+
+#page-nav li{
+   margin: 3px;
+}
